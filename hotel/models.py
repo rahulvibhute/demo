@@ -2,6 +2,10 @@ from django.db import models
 
 # Create your models here.
 
+
+
+print("Welcome")
+
 class Hotel(models.Model):
     Hotelname = models.CharField(max_length=50)
 
